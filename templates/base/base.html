@@ -9,7 +9,7 @@
 	<title>{% block title %} Document {% endblock %}</title>
 </head>
 <body>
-
+<div class="container">
 	{% block header %}
 			{% include 'base/header.html' %}
 	{% endblock %}
@@ -23,6 +23,7 @@
 	{% block extrajs %}
 
 	{% endblock %}
+</div>
 	<script type="text/javascript" src="{% static 'bower_components/jquery/dist/jquery.min.js' %}"></script>
 	<script type="text/javascript" src="{% static 'bower_components/bootstrap/dist/js/bootstrap.min.js' %}"></script>
 </body>
