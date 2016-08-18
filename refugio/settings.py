@@ -134,3 +134,4 @@ BOWER_INSTALLED_APPS = (
 )
 
 LOGIN_REDIRECT_URL = reverse_lazy('adopcion:solicitud_listar')
+LOGOUT_REDIRECT_URL = reverse_lazy('login')
